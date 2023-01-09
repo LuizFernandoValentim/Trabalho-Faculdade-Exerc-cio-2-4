@@ -71,4 +71,12 @@ while True:
             elif (resposta == '2') or (resposta == 'Não'):
                 print('O total a ser pago é de: {:.2f}'.format(subtotalfinal))
                 exit()
+                
+                
+            else:
+                print('Digite um valor válido')
+
+        if (resposta == '1') or (resposta == 'Sim'):
+            break
+
 
